@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ELX.sol": "Context"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ELX.sol": {
+			"keccak256": "0xe98b39c2c7d4f010eb51aa3a99a60cfd8a38a29e6aa79f3530a545d1e5c4d16f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://0e9a52393d69b96aeffc5dfed0dea00d0d54cb1f3570c508be1efc12b881734b",
+				"dweb:/ipfs/QmawC7vTPiRWgPaqYadrEZp281PXptudrtKoH7VLEzHwMF"
+			]
+		},
+		"contracts/Ownable.sol": {
+			"keccak256": "0x1e0dcf47f0d1a4f11287d8ec5e1ac83d6d853c1a973bf726cab392390bcf8eba",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c2091f84abeee0ca7ff2ef205c979a036de1de0686e991e4150a0aa286ac395d",
+				"dweb:/ipfs/QmeJfGdwqHix19GrQQdBTcBKtmqxsKyf8jgPdeCk4aZRUK"
+			]
+		},
+		"contracts/SafeMath.sol": {
+			"keccak256": "0xf2a8aba77f7c47ac2fb29897622e3d3ceaf0dd3c1ef685895242fa9541f27c34",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b1704be230acf1d4555a032bcd8b38d48dfe2763ea61ced2fd5e8889036acb2",
+				"dweb:/ipfs/QmezxGeADPzpJA8PdSCYHQRDoytY14xY8SkvP9FwMVp54K"
+			]
+		}
+	},
+	"version": 1
+}

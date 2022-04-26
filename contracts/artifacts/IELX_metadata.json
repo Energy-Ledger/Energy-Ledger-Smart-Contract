@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BridgeBase.sol": "IELX"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BridgeBase.sol": {
+			"keccak256": "0xd08972b850543b95fc46d43cc9d42a4059fc3d11d0250cf7f5b279aaa242ee0e",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://2c47009498fd36f06fdf7c03b2fe5757841222510101d815ae99a4f1c94e7a36",
+				"dweb:/ipfs/QmcYcWgeBPtVK4afWvN35bBXu1HbYDemsJ8DwWn3rGQi26"
+			]
+		},
+		"contracts/Ownable.sol": {
+			"keccak256": "0x1e0dcf47f0d1a4f11287d8ec5e1ac83d6d853c1a973bf726cab392390bcf8eba",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c2091f84abeee0ca7ff2ef205c979a036de1de0686e991e4150a0aa286ac395d",
+				"dweb:/ipfs/QmeJfGdwqHix19GrQQdBTcBKtmqxsKyf8jgPdeCk4aZRUK"
+			]
+		}
+	},
+	"version": 1
+}
